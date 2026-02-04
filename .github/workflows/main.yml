@@ -3,6 +3,6 @@ jobs:
   BuildTest:
     runs-on: ubuntu-latest
     steps:
-      - uses: action/checkout@v6.0.2
+      - uses: actions/checkout@v6.0.2
       - name: Run Test
         run: cat TestCloud
